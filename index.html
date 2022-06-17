@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body bgcolor="#86888A">
+    <script>
+        name=window.prompt('Ingrese su nombre','Juan')
+        surname=window.prompt('Ingrese su apellido','Perez')
+        fullName= name+' '+surname
+        age=window.prompt('Ingrese su edad','0')
+        year=2022-age
+        document.write("Nombre Completo: ", fullName)
+        document.write("<br>")
+        document.write("Año de nacimiento: ", year)
+    </script>
+    
+    <p>
+    <h3>Dadas las variables, averiguar su valor de verdad e imprimirlas con ALERT: <br>
+        var a, b, c, d, eTexto; a = 3; b = 5; c = true; d = false; eTexto = ‘1’; <br>
+    </h3>
+    <button id="boton1">
+        Valor de verdad para (a+b == 8 && a-b ==1)  <br>
+    </button>
+    <br>
+    <button id="boton2">
+        Valor de verdad para (a+b == 8 && a-b ==-2) <br>
+    </button>
+    <br>
+    <button id="boton3">
+        Valor de verdad para c == d  <br>
+    </button>
+    <br>
+    <button id="boton4">
+        Valor de verdad para (c && d) <br>
+    </button>
+    <br>
+    <button id="boton5">
+        Valor de verdad para (c || d)  <br>
+    </button>
+    <br>
+    <button id="boton6">
+        Valor de verdad para !a  <br>
+    </button>
+    <br>
+	<button id="boton7">
+        Valor de verdad para eTexto == 1 <br>
+    </button>
+    <br>
+    <button id="boton8">
+        Valor de verdad para “Zapato” < “avellano” //asignarlas a variables 
+    </button>
+    <br>
+    <hr>
+    <hr>
+    <h3>Dadas las variables de tipo entero con valores A = 5, B = 3, C = -12 indicar si la evaluación de estas expresiones daría como resultado verdadero o falso:
+    </h3>
+
+    <button id="botona">
+        a) A > 3
+    </button>
+    <button id="botonb">
+        b) A > C
+    </button>
+    <button id="botonc">
+        c) A < C
+    </button>
+    <button id="botond">
+        d) B < C
+    </button>
+    <button id="botone">
+        e) B != C
+    </button>
+    <button id="botonf">
+        f) A == 3
+    </button>
+    <br>
+    <button id="botong">
+        g) A * B == 15
+    </button>
+    <button id="botonh">
+        h) A * B == -30
+    </button>
+    <button id="botoni">
+        i) C / B < A
+    </button>
+    <button id="botonj">
+        j) C / B == -10
+    </button>
+    <br>
+    <button id="botonk">
+        k) C / B == -4
+    </button>
+    <button id="botonl">
+        l) A + B + C == 5
+    </button>
+    <button id="botonm">
+        m) (A+B == 8) && (A-B == 2)
+    </button>
+    <br>
+    <button id="botonn">
+        n) (A+B == 8) || (A-B == 6)
+    </button>
+    <button id="botono">
+        o) A > 3 && B > 3 && C < 3
+    </button>
+    <br>
+    <button id="botonp">
+        p) A > 3 && B >= 3 && C < -3
+    </button>
+    
+
+    <script>
+        num1=window.prompt('Ingrese el número 1','1')
+        num2=window.prompt('Ingrese el número 2','2')
+        if(num1<num2){
+            alert(num1 + " no es mayor que " + num2+".")
+        }
+        if (num2>=0){
+            alert(num2 + " es positivo.")
+        }
+        if ((num1<0) || (num1 !=0)){
+            alert(num1 + " es negativo o distinto de cero.")
+        }
+        if ((num1+1)<num2){
+            alert("Incrementar en una unidad al número 1 no lo hace mayor o igual que el número 2.")
+        }
+    </script>
+
+
+    </p>
+    <script src="./script.js"></script>
+</body>
+</html>
